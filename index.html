@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&family=Orbitron:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <span><a href="#sobre">Sobre</a></span>
-        <span><a href="#habilidades">Habilidades</a></span>
-        <span><a href="#indicação">Indicação</a></span>
+        <span class="header-menu"><a href="#sobre">Sobre</a></span>
+        <span class="header-menu"><a href="#habilidades">Habilidades</a></span>
+        <span class="header-menu"><a href="#indicação">Indicação</a></span>
     </header>
-    <h1>Henrique Pozzolini Morera</h1>
-    <img src="perfil.jpeg" alt="Foto perfil de Henrique" width="200px" id="foto">
+    <h1>Henrique Pozzolini Moreira</h1>
+    <img src="perfil.jpeg" alt="Foto perfil de Henrique" width="200px" id="foto" class='profile_photo'>
 
-    <p id="sobre">Meu nome é <a href="#foto"><Strong>Henrique</Strong></a>, <em>brasileiro</em>, natural de <em>Belo Horizonte, Minas Gerais</em>.<br> Atualmente moro em Belo Horizonte. Tenho 28 anos. Sou formado em Engenharia Mecânia pela UFMG, porém não exerço a profissão.<br> Comecei meus estudos sobre programação web por volta de meados de 2020, e atulamente sou aluno da <strong><a href="https://betrybe.com/" target="_blank">Trybe</a></strong>.</p>
+    <h2>Sobre:</h2>
+
+    <p id="sobre">Meu nome é <a href="#foto"><strong>Henrique</strong></a>, <em>brasileiro</em>, natural de <em>Belo Horizonte, Minas Gerais</em>.<br> Atualmente moro em Belo Horizonte. Tenho 28 anos. Sou formado em Engenharia Mecânia pela UFMG, porém não exerço a profissão.<br> Comecei meus estudos sobre programação web por volta de meados de 2020, e atulamente sou aluno da <strong><a href="https://betrybe.com/" target="_blank">Trybe</a></strong>.</p>
 
     <h2 id="habilidades">Habilidades:</h2>
     <ul>
         <li>Comunicativo</li>
-        <li><strong>Vontade constante de melhorar</strong></li>
+        <li class='list-most-important'><strong>Vontade constante de melhorar</strong></li>
         <li>Mentalidade empreendedora</li>
         <li>Valorização de relações interpessoais</li>
     </ul>
 
     <h3 id="indicação">Blog Indicado:</h3>
-    <button><a href="https://medium.com/" target="_blank">Medium</a></button>
+    <button class="button-blog"><a href="https://medium.com/" target="_blank">Medium</a></button>
     
 </body>
 </html>

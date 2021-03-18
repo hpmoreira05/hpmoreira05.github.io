@@ -1,0 +1,71 @@
+body {
+    background-color: #00171f;
+    color: azure;
+    font-family: Nunito Sans, sans-serif;
+    margin: 0;
+    font-size: 16px;
+}
+
+header {
+    background-color: #003459;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-menu{
+    font-size: 1.5rem;
+    margin: 0 7rem;
+}
+.header-menu a{
+    text-decoration: none;
+    color: #007ea7;
+    font-weight: 800;
+}
+
+.profile_photo{
+    border-radius: 100%;
+    padding: 1rem 2rem;
+}
+
+h1 {
+    font-family: Orbitron, sans-serif;
+}
+
+strong, em {
+    color: #00a7e1;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, h1, h2, h3, h4, button {
+    margin-left: 1rem;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.list-most-important{
+    font-size: 1.3rem;
+}
+
+.button-blog{
+    background-color: #003459;
+    border: none;
+    font-size: 1.3rem;
+    padding: 0.7rem 3rem;
+    border-radius: 5px;
+    color: azure;
+    font-weight: 600;
+}
+
+
+a:visited {
+    color: azure;
+}
+
+a:hover {
+    color: rgb(206, 206, 10);
+}
